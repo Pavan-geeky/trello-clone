@@ -3,9 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "express": "^4.17.1",
+    "firebase": "^6.6.2",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.21.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
     "react": "^16.9.0",
+    "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-dropdown-select": "^3.6.3",
+    "react-horizontal-scroll-container": "^1.0.1",
+    "react-loader-spinner": "^3.1.4",
+    "react-radio-buttons": "^1.2.2",
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.4.1",
+    "react-router": "^5.1.0",
+    "react-router-dom": "^5.1.0",
+    "react-scripts": "3.1.2",
+    "react-scroll-horizontal": "^1.6.2",
+    "react-select": "^3.0.5",
+    "redux": "^4.0.4",
+    "redux-firestore": "^0.9.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.88.1",
+    "sweetalert2": "^8.17.6",
+    "sweetalert2-react": "^0.8.3",
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-perf-devtool": "^3.1.8"
   }
 }
